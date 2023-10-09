@@ -35,4 +35,6 @@ From The Odin Project's [curriculum](https://www.theodinproject.com/lessons/node
 
 ### Comments/To Do
 
-* Add a reset function and a bot
+* Add a player creation
+* Add new/reset game
+* Add bot

@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Mansalva' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/styles.css">
     <script src="scripts/game.js" defer></script>
@@ -11,10 +13,26 @@
 <body>
     <header class="header">
         <h1 class="title">Tic-Tac-Toe</h1>
-        <p class="subtext"><span class="player-name"></span>, make your move.</p>
+        <p class="subtext"><span class="player-name">Player 1</span>, make your move.</p>
     </header>
     <main class="game">
         <div class="gameboard"></div>
+
+        <!-- reset game modal-->
+        <div id="modal" class="reset-game">
+            <div class="modal-card">
+                <div class="modal-header">
+                    <h2>PLAY AGAIN</h2>
+                </div>
+                <div class="modal-content">
+                    <p>Would you like to play again?</p>
+                    <div class="modal-options">
+                        <button type="button" class="cancel-play close">DON'T PLAY</button>
+                        <button type="button" class="play-again">PLAY AGAIN</button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
 </body>
 </html>
